@@ -1,0 +1,37 @@
+/*
+*Wendy Mayo
+*D3/13/19
+*Project 02 Schedule
+*/
+
+/* The universal selector */
+*{
+}
+/* Body attributes here */
+body {
+   
+}
+table /* The border on the outer side of the table should be thin, solid, and blue */
+{border: 2px solid darkblue;
+    border-collapse: collapse;
+}
+
+ td /* The lines on the inside of the table should be more thin than the outer lines  */
+{border: 2px solid darkblue;
+}
+
+th /* The heads should have a border to seperate them */
+{border: 2px solid darkblue;
+}
+
+thead /* The first two rows background should be lime  */
+{background-color: lightgreen;
+}
+
+tbody /* The first two rows background should be lime  */
+{background-color: lightgoldenrodyellow;
+}
+
+tfoot /* The last row background color should be deepskyblue  */
+{background-color: lightblue;
+}
